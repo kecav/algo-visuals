@@ -19,7 +19,6 @@
             const el = Math.floor(Math.random() * (max - min + 1) + min);
             randArr.push(el);
         }
-        setArray(randArr);
         return randArr;
     }
 ```
