@@ -179,11 +179,6 @@ const swapNodes = (i, j) => {
                 renderCanvas();
                 // stops interval
                 clearInterval(interval);
-
-                // finally returns after swapping si completed;
-                // setTimeout(() => {
-                //     resolve("");
-                // }, 500 / speed)
                 resolve("");
                 return;
             }
